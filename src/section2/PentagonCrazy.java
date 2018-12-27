@@ -6,7 +6,9 @@ import org.jointheleague.graphical.robot.Robot;
 
 /* Teacher’s note: before beginning, draw a pentagon and have students work out the angle that the robot will have to turn (360/5) */
 
-public class PentagonCrazy {
+public class PentagonCrazy {public static void main1(String[] args) {
+	
+}
 
 	private void makePrettyThings() {
 		// 1. Create a new Robot
@@ -40,5 +42,11 @@ public class PentagonCrazy {
 
 	public static void main(String[] args) {
 		new PentagonCrazy().makePrettyThings();
-	}
+Robot human  = new Robot();	
+human.penDown();
+human.setSpeed(100);
+human.setRandomPenColor();
+for (int i = 0; i < 2000; i++) {
+	
+}}
 }

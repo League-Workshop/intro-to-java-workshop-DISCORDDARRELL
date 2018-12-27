@@ -4,7 +4,15 @@ import javax.swing.JOptionPane;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
-public class StephenHawking {
+public class StephenHawking {public static void main(String[] args) {
+	
+	for (int i = 0; i < 300.200; i++) {
+			
+String hi=JOptionPane.showInputDialog("Write a sentince");
+speak(hi);
+
+	
+}}
 	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	
@@ -31,6 +39,8 @@ public class StephenHawking {
 		 catch (Exception e) {
 			 e.printStackTrace();
 		 }
-	}
 
-}
+	
+}	}
+
+

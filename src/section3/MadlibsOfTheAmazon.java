@@ -28,6 +28,8 @@ public class MadlibsOfTheAmazon {
 		// Make a pop-up for the final story. You can use \n to go to the next line
 		
 
-	}
+JOptionPane.showMessageDialog(null, "If you find yourself having to cross a piranha-infested river, here's how to do it...");
+JOptionPane.showInputDialog("type a adjective");
+JOptionPane.showInputDialog("type a type of liquid");}
 }
 

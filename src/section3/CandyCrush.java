@@ -13,7 +13,9 @@ public class CandyCrush {
 
 		// 4. Tell them their best friend is as sweet as candy
 
-	} 
+JOptionPane.showInputDialog("Who do you dilike");
+JOptionPane.showMessageDialog(null,"You totally have a crush on ");
+} 
 }
 
 
